@@ -1,4 +1,4 @@
-TESTS = test/quicktrim.test.js
+TESTS = test/*.test.js
 REPORTER = spec
 TIMEOUT = 5000
 MOCHA = ./node_modules/mocha/bin/mocha

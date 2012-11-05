@@ -2,7 +2,15 @@
 
 ## About
 
-`quicktrim` is 
+`quicktrim` is a module to trim ascii string, faster than `String.trim`:
+
+```bash
+$ node benchmark/quicktrim.js
+ quicktrim() x 11,679,437 ops/sec ±0.30% (69 runs sampled)
+String.trim() x 5,747,307 ops/sec ±0.35% (53 runs sampled)
+Fastest is  quicktrim()
+
+```
 
 ## Install
 
@@ -13,6 +21,10 @@ $ npm install quicktrim
 ## Usage
 
 ```javascript
+
+var trim = require('quicktrim').trim;
+
+trim(' I am so glad to hear about you. ');
 
 ```
 

@@ -12,7 +12,8 @@
   },
   "devDependencies": {
     "mocha"  : ">=0.9.0",
-    "should" : ">=0.4.2"
+    "should" : ">=0.4.2",
+    "benchmark" : "latest"
   },
   "main": "./index.js",
   "scripts": {
