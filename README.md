@@ -13,6 +13,7 @@ Fastest is  quicktrim()
 ```
 
 * v0.0.1
+
 ```bash
 $ node benchmark/quicktrim.js
  quicktrim() x 11,679,437 ops/sec ±0.30% (69 runs sampled)
