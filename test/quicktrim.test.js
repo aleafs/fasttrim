@@ -1,12 +1,14 @@
 /* vim: set expandtab tabstop=2 shiftwidth=2 foldmethod=marker: */
 
 var should = require('should');
-var trim = require(__dirname + '/../').trim;
+var trim = require(__dirname + '/../');
 
 describe('quicktrim', function() {
 
   it('should_quick_trim_works_fine', function () {
-    trim(' i am so glad ...\t\n').should.eql('i am so glad ...');
+    trim.trim(' i am so glad ...\t\n').should.eql('i am so glad ...');
+    trim.ltrim('  i am so glad ..\t\n').should.eql('i am so glad ..\t\n');
+    trim.rtrim('  i am so glad ..\t\n').should.eql('  i am so glad ..');
   });
 
 });

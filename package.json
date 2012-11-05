@@ -1,6 +1,6 @@
 {
   "name": "quicktrim",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Aleafs Zhang (zhangxc83@gmail.com)",
   "contributors": [],
   "homepage": "git@github.com:aleafs/quicktrim.git",
@@ -13,7 +13,7 @@
   "devDependencies": {
     "mocha"  : ">=0.9.0",
     "should" : ">=0.4.2",
-    "benchmark" : "latest"
+    "benchmark" : ">=1.0.0"
   },
   "main": "./index.js",
   "scripts": {
