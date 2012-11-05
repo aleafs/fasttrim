@@ -7,6 +7,9 @@
 * v0.0.2 (use substring instead of slice)
 
 ```bash
+$ node -v
+v0.6.13
+$ node benchmark/quicktrim.js
  quicktrim() x 12,670,083 ops/sec ±0.47% (69 runs sampled)
 String.trim() x 5,770,520 ops/sec ±0.33% (69 runs sampled)
 Fastest is  quicktrim()
@@ -15,6 +18,8 @@ Fastest is  quicktrim()
 * v0.0.1
 
 ```bash
+$ node -v
+v0.6.13
 $ node benchmark/quicktrim.js
  quicktrim() x 11,679,437 ops/sec ±0.30% (69 runs sampled)
 String.trim() x 5,747,307 ops/sec ±0.35% (53 runs sampled)
