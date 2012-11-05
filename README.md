@@ -8,6 +8,7 @@
 $ node benchmark/quicktrim.js
  quicktrim() x 11,679,437 ops/sec ±0.30% (69 runs sampled)
 String.trim() x 5,747,307 ops/sec ±0.35% (53 runs sampled)
+  TJ's trim() x 1,780,430 ops/sec ±2.19% (66 runs sampled)
 Fastest is  quicktrim()
 
 ```
