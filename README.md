@@ -4,6 +4,15 @@
 
 `quicktrim` is a module to trim ascii string, faster than `String.trim`:
 
+* v0.0.2 (use substring instead of slice)
+
+```bash
+ quicktrim() x 12,670,083 ops/sec ±0.47% (69 runs sampled)
+String.trim() x 5,770,520 ops/sec ±0.33% (69 runs sampled)
+Fastest is  quicktrim()
+```
+
+* v0.0.1
 ```bash
 $ node benchmark/quicktrim.js
  quicktrim() x 11,679,437 ops/sec ±0.30% (69 runs sampled)
