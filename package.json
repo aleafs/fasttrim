@@ -1,9 +1,9 @@
 {
-  "name": "quicktrim",
+  "name": "fasttrim",
   "version": "0.1.0",
   "author": "Aleafs Zhang (zhangxc83@gmail.com)",
   "contributors": [],
-  "homepage": "git@github.com:aleafs/quicktrim.git",
+  "homepage": "git@github.com:aleafs/fasttrim.git",
   "description": "",
   "keywords": [ "trim", "fatest" ],
   "dependencies": {},

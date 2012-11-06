@@ -1,18 +1,18 @@
-[![Build Status](https://secure.travis-ci.org/aleafs/quicktrim.png?branch=master)](http://travis-ci.org/aleafs/quicktrim)
+[![Build Status](https://secure.travis-ci.org/aleafs/fasttrim.png?branch=master)](http://travis-ci.org/aleafs/fasttrim)
 
 ## About
 
-`quicktrim` is a module to trim ascii string, faster than `String.trim`:
+`fasttrim` is a module to trim ascii string, faster than `String.trim`:
 
 * v0.1.0 (move `if` to `for` conditions)
 
 ```bash
 $ node -v
 v0.6.13
-$ node benchmark/quicktrim.js
- quicktrim() x 12,969,029 ops/sec ±0.75% (69 runs sampled)
+$ node benchmark/fasttrim.js
+ fasttrim() x 12,969,029 ops/sec ±0.75% (69 runs sampled)
 String.trim() x 5,654,115 ops/sec ±0.66% (68 runs sampled)
-Fastest is  quicktrim()
+Fastest is  fasttrim()
 ```
 
 * v0.0.2 (use substring instead of slice)
@@ -20,10 +20,10 @@ Fastest is  quicktrim()
 ```bash
 $ node -v
 v0.6.13
-$ node benchmark/quicktrim.js
- quicktrim() x 12,670,083 ops/sec ±0.47% (69 runs sampled)
+$ node benchmark/fasttrim.js
+ fasttrim() x 12,670,083 ops/sec ±0.47% (69 runs sampled)
 String.trim() x 5,770,520 ops/sec ±0.33% (69 runs sampled)
-Fastest is  quicktrim()
+Fastest is  fasttrim()
 ```
 
 * v0.0.1
@@ -31,25 +31,25 @@ Fastest is  quicktrim()
 ```bash
 $ node -v
 v0.6.13
-$ node benchmark/quicktrim.js
- quicktrim() x 11,679,437 ops/sec ±0.30% (69 runs sampled)
+$ node benchmark/fasttrim.js
+ fasttrim() x 11,679,437 ops/sec ±0.30% (69 runs sampled)
 String.trim() x 5,747,307 ops/sec ±0.35% (53 runs sampled)
   TJ's trim() x 1,780,430 ops/sec ±2.19% (66 runs sampled)
-Fastest is  quicktrim()
+Fastest is  fasttrim()
 
 ```
 
 ## Install
 
 ```bash
-$ npm install quicktrim
+$ npm install fasttrim
 ```
 
 ## Usage
 
 ```javascript
 
-var trim = require('quicktrim').trim;
+var trim = require('fasttrim').trim;
 
 trim(' I am so glad to hear about you. ');
 
