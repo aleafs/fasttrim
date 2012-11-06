@@ -11,4 +11,16 @@ describe('quicktrim', function() {
     trim.rtrim('  i am so glad ..\t\n').should.eql('  i am so glad ..');
   });
 
+  it('all blank character', function () {
+    var blank = [];
+    for (var i = 0; i < 33; i++) {
+      blank.push(String.fromCharCode(i));
+    }
+
+    blank = blank.join('');
+    blank.should.have.property('length', 33);
+    trim.trim(blank).should.eql('');
+
+  });
+
 });
