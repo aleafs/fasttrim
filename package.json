@@ -1,9 +1,13 @@
 {
   "name": "fasttrim",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Aleafs Zhang (zhangxc83@gmail.com)",
   "contributors": [],
-  "homepage": "git@github.com:aleafs/fasttrim.git",
+  "homepage": "https://github.com/aleafs/fasttrim",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aleafs/fasttrim.git"
+  },
   "description": "fastest trim module for ascii string",
   "keywords": [ "trim", "fatest" ],
   "dependencies": {},
